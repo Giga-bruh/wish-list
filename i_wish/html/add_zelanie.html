@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Добавить желание</title>
+    <style type="text/css" id="operaUserStyle"></style></head><body>{% load static %}
+    <link rel="stylesheet" href="{% static 'i_wish/styles.css' %}">
+
+
+    <div class="wishlist-container">
+        <h1>Добавить новое желание</h1>
+        <form method="post" enctype="multipart/form-data" class="wish-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="add-wish-button">Добавить</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
