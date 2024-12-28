@@ -6,9 +6,9 @@
 ### Логин:
 ![registration](screens/login.png)
 ### Мой виш лист:
-![registration](screens/my wish list.png)
+![registration](screens/my_wish_list.png)
 ### публичный виш лист:
-![registration](screens/public wish list.png)
+![registration](screens/public_wish_list.png)
 ### добавить желание:
 ![registration](screens/add_wish.png)
 ## Основные возможности проекта:
